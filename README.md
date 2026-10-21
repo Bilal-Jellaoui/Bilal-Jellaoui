@@ -71,10 +71,50 @@ Université Ibn Tofaïl · Faculté des Sciences de Kénitra 🇲🇦
 
 ### 🎓 Projets Master — Big Data, IA & Applications Avancées
 
+### ⭐ Projet Master à la une : SoukLine, détection de pannes web en temps réel
+
+<div align="center">
+<a href="https://github.com/Bilal-Jellaoui/streaming-logs-kafka"><img src="https://raw.githubusercontent.com/Bilal-Jellaoui/streaming-logs-kafka/main/docs/banner.svg" alt="SoukLine : traitement parallèle en streaming de logs web" width="100%"></a>
+</div>
+
+> **Comment surveiller un site web en direct à partir de ses logs, et être alerté en quelques secondes quand les erreurs 5xx explosent ?**
+> Réponse : un vrai site e-commerce, un cluster Kafka à 3 brokers, et deux moteurs de calcul indépendants dont les résultats sont comparés.
+
+```mermaid
+flowchart LR
+    S["Site SoukLine<br/>Spring Boot"] --> L[("access.log<br/>Tomcat")]
+    L --> C["Collecteur Java"]
+    C --> K{{"Kafka · 3 brokers<br/>web-logs · 8 partitions"}}
+    K --> A["Moteur A<br/>Kafka Streams"]
+    K --> B["Moteur B<br/>ExecutorService + CyclicBarrier"]
+    A --> D["Tableau de bord<br/>+ alerte 5xx"]
+    B --> D
+```
+
+| | |
+|---|---|
+| 🧭 **Mon rôle** | Chef d'équipe (6 membres). Conception et développement du **Parser** de logs (regex, normalisation des URL) et du **Moteur A** (Kafka Streams : fenêtres de 5 s, temps d'événement lu dans le log, tolérance aux retards). Montage du **Moteur B** en binôme. Organisation du dépôt : Maven multi-modules, branches, Pull Requests, relecture obligatoire, intégration continue GitHub Actions. |
+| ⚙️ **Ce que j'ai mis en œuvre** | Traitement en continu avec **Kafka Streams** ; concurrence Java écrite à la main (`ExecutorService`, `ConcurrentHashMap`, `AtomicLong`, `CyclicBarrier`) ; cluster Kafka KRaft répliqué (3 brokers) ; tests JUnit ; démonstration sur un **vrai site**, pas sur des données fabriquées. |
+| ✅ **Résultats** | Les deux moteurs donnent les **mêmes totaux** par URL et par fenêtre (aux quelques secondes de publication près). En démonstration, une panne simulée sur `/checkout` (HTTP 503) fait passer le taux d'erreurs 5xx à **25 %** et déclenche l'**alerte** en quelques secondes ; le système revient à l'état normal dès la réparation. Un module de vérification séquentiel indépendant recompte les logs et compare les deux moteurs. |
+| 🧰 **Technologies** | `Java 17` `Spring Boot` `Apache Kafka` `Kafka Streams` `Docker` `Maven` `JUnit 5` `GitHub Actions` `JMeter` |
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/Bilal-Jellaoui/streaming-logs-kafka/main/docs/demo/alerte.png" alt="Alerte déclenchée sur /checkout : 25 % d'erreurs 5xx" width="80%">
+<br><sub>Le tableau de bord détecte la panne : 10 requêtes sur 10 en erreur sur <code>/checkout</code>, soit 25 % de 5xx pour un seuil de 10 %.</sub>
+</div>
+
+<div align="center">
+
+[![Voir le projet](https://img.shields.io/badge/Voir%20le%20projet-GitHub-181717?logo=github&logoColor=white&style=for-the-badge)](https://github.com/Bilal-Jellaoui/streaming-logs-kafka)
+[![Documentation](https://img.shields.io/badge/README-d%C3%A9taill%C3%A9-2563eb?style=for-the-badge)](https://github.com/Bilal-Jellaoui/streaming-logs-kafka#readme)
+
+</div>
+
+#### Autres projets Master
+
 | Projet | Description | Technologies |
 |---|---|---|
 | 🧠 **[BMA — Mental Health Support Chatbot](https://github.com/Bilal-Jellaoui/BMA-Mental-Health-Chatbot)** | Chatbot de soutien en santé mentale : classification d'intentions et d'émotions (DistilBERT fine-tuné), réponses empathiques via LLM, **détection de crise avant chaque réponse**, mémoire de conversation, dashboard d'humeur et API REST. Projet d'équipe. <br>📄 [Rapport](https://github.com/Bilal-Jellaoui/BMA-Mental-Health-Chatbot/blob/main/Article(AI%20Mental%20Health%20Support).pdf) · 🖼️ [Captures](https://github.com/Bilal-Jellaoui/BMA-Mental-Health-Chatbot/tree/main/screenshots). | `Python` `Flask` `DistilBERT` `PyTorch` `Groq API` `SQLite` |
-| ⚡ **[Traitement parallèle en streaming de logs web](https://github.com/Bilal-Jellaoui/TON-DEPOT-STREAMING)** | Chaîne complète sur un **vrai site web** : site e-commerce (SoukLine) → `access.log` Tomcat → collecteur Java → **Kafka** → deux moteurs comparés : **Kafka Streams** (fenêtres de 5 s) et un moteur concurrent écrit à la main (`ExecutorService`, `CyclicBarrier`, compteurs atomiques). Statistiques par URL, **alerte sur le taux d'erreurs 5xx**, vérification d'exactitude et benchmark 1/2/4/8 threads. Trafic réel généré avec JMeter. Projet d'équipe (6 membres). | `Java` `Spring Boot` `Kafka` `Kafka Streams` `Docker` `Maven` `JMeter` |
 | 🛡️ **[Détection de fraude bancaire](https://github.com/Bilal-Jellaoui/fraud-detection-flask-ml)** | Application Flask de détection de fraude par carte : 4 modèles comparés sur données très déséquilibrées (0,17 % de fraudes), SMOTE, XGBoost retenu (**ROC-AUC 0,982**, F1 0,87), API REST et dashboard d'erreurs. Projet individuel. <br>📄 [Rapport (8 p.)](https://github.com/Bilal-Jellaoui/fraud-detection-flask-ml/tree/main/report) · 🖼️ [Captures](https://github.com/Bilal-Jellaoui/fraud-detection-flask-ml/tree/main/docs) | `Python` `Flask` `XGBoost` `scikit-learn` `SQLite` |
 | 🗜️ **[Compression adaptative de signaux physiologiques multi-capteurs](https://github.com/Bilal-Jellaoui/TON-DEPOT-COMPRESSION)** | <!-- À COMPLÉTER : 1-2 phrases sur ta méthode et tes résultats --> Compression adaptative de signaux physiologiques issus de plusieurs capteurs. | `À compléter` |
 | 🗄️ **[HBase — Workload & Storage Optimization](https://github.com/Bilal-Jellaoui/TON-DEPOT-HBASE)** | <!-- À COMPLÉTER : 1-2 phrases sur ce que tu as optimisé et mesuré --> Étude de l'optimisation des charges de travail et du stockage sous HBase. | `HBase` `À compléter` |
