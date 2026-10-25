@@ -8,7 +8,7 @@
 **Étudiant en Master Big Data, IA & Applications Avancées (2025–2027)**<br>
 Université Ibn Tofaïl · Faculté des Sciences de Kénitra 🇲🇦
 
-<a href="https://bilal-jellaoui.github.io/"><img src="assets/btn-portfolio.svg" height="40" alt="Portfolio"></a>&nbsp;<a href="https://www.linkedin.com/in/bilal-jellaoui"><img src="assets/btn-linkedin.svg" height="40" alt="LinkedIn"></a>&nbsp;<a href="mailto:bilaljellaoui@gmail.com"><img src="assets/btn-email.svg" height="40" alt="Email"></a>
+<a href="https://bilal-jellaoui.github.io/"><img src="assets/btn-portfolio.svg" height="40" alt="Portfolio"></a>&nbsp;<a href="https://www.linkedin.com/in/bilal-jellaoui-381594170"><img src="assets/btn-linkedin.svg" height="40" alt="LinkedIn"></a>&nbsp;<a href="mailto:bilaljellaoui@gmail.com"><img src="assets/btn-email.svg" height="40" alt="Email"></a>
 
 </div>
 
@@ -83,6 +83,6 @@ Je cherche un **stage de PFE de 6 mois à partir de février 2027**, dans l'un d
 
 Ouvert aux échanges sur la Data Science, l'IA, le Machine Learning et les opportunités de stage.
 
-**Email** [bilaljellaoui@gmail.com](mailto:bilaljellaoui@gmail.com) · **LinkedIn** [bilal-jellaoui](https://www.linkedin.com/in/bilal-jellaoui) · **Portfolio** [bilal-jellaoui.github.io](https://bilal-jellaoui.github.io/)
+**Email** [bilaljellaoui@gmail.com](mailto:bilaljellaoui@gmail.com) · **LinkedIn** [bilal-jellaoui](https://www.linkedin.com/in/bilal-jellaoui-381594170) · **Portfolio** [bilal-jellaoui.github.io](https://bilal-jellaoui.github.io/)
 
 <div align="center"><sub>Kénitra, Maroc · Disponible pour un stage PFE de 6 mois à partir de février 2027</sub></div>
