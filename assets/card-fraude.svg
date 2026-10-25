@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 452 339" width="452" height="339" role="img" aria-labelledby="t d" font-family="Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
+<title id="t">Détection de fraude bancaire</title>
+<desc id="d">Analyse de 284 807 transactions très déséquilibrées : comparaison de modèles, SMOTE et validation croisée. XGBoost retenu, intégré dans une application Flask avec API REST, journal SQLite et tableau de bord.</desc>
+<defs><linearGradient id="cg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38BDF8"/><stop offset="1" stop-color="#818CF8"/></linearGradient><clipPath id="cc"><rect width="440" height="327" rx="16"/></clipPath></defs>
+<g transform="translate(6,6)"><g clip-path="url(#cc)"><rect width="440" height="327" fill="#0F1A33"/><rect width="440" height="4" fill="url(#cg)"/><rect x="24" y="24" width="146.1" height="24" rx="12" fill="#38BDF8" fill-opacity="0.15"/>
+<text x="35.0" y="40.0" font-size="10.5" font-weight="700" fill="#38BDF8" text-anchor="start" letter-spacing="1.1">MACHINE LEARNING</text>
+<text x="416.0" y="40.0" font-size="12" font-weight="500" fill="#8DA0C0" text-anchor="end">Projet individuel  ↗</text>
+<text x="24.0" y="82.0" font-size="19.5" font-weight="700" fill="#FFFFFF" text-anchor="start">Détection de fraude bancaire</text>
+<text x="24.0" y="116.0" font-size="13" font-weight="400" fill="#B8C6DF" text-anchor="start">Analyse de 284 807 transactions très déséquilibrées :</text>
+<text x="24.0" y="136.0" font-size="13" font-weight="400" fill="#B8C6DF" text-anchor="start">comparaison de modèles, SMOTE et validation croisée.</text>
+<text x="24.0" y="156.0" font-size="13" font-weight="400" fill="#B8C6DF" text-anchor="start">XGBoost retenu, intégré dans une application Flask avec API</text>
+<text x="24.0" y="176.0" font-size="13" font-weight="400" fill="#B8C6DF" text-anchor="start">REST, journal SQLite et tableau de bord.</text>
+<rect x="24.0" y="198" width="124.0" height="64" rx="10" fill="#15223F" stroke="#24365C"/>
+<text x="36.0" y="226.0" font-size="22" font-weight="800" fill="#38BDF8" text-anchor="start">0,982</text>
+<text x="36.0" y="242.0" font-size="11" font-weight="400" fill="#8DA0C0" text-anchor="start">ROC-AUC</text>
+<rect x="158.0" y="198" width="124.0" height="64" rx="10" fill="#15223F" stroke="#24365C"/>
+<text x="170.0" y="226.0" font-size="22" font-weight="800" fill="#38BDF8" text-anchor="start">0,871</text>
+<text x="170.0" y="242.0" font-size="11" font-weight="400" fill="#8DA0C0" text-anchor="start">F1-score</text>
+<rect x="292.0" y="198" width="124.0" height="64" rx="10" fill="#15223F" stroke="#24365C"/>
+<text x="304.0" y="226.0" font-size="22" font-weight="800" fill="#38BDF8" text-anchor="start">0,173 %</text>
+<text x="304.0" y="242.0" font-size="11" font-weight="400" fill="#8DA0C0" text-anchor="start">de fraudes dans les</text>
+<text x="304.0" y="255.0" font-size="11" font-weight="400" fill="#8DA0C0" text-anchor="start">données</text>
+<rect x="24.0" y="280" width="54.9" height="23" rx="11.5" fill="none" stroke="#24365C"/>
+<text x="32.0" y="295.5" font-size="11.5" font-weight="500" fill="#C9D6EC" text-anchor="start">Python</text>
+<rect x="83.9" y="280" width="77.9" height="23" rx="11.5" fill="none" stroke="#24365C"/>
+<text x="91.9" y="295.5" font-size="11.5" font-weight="500" fill="#C9D6EC" text-anchor="start">scikit-learn</text>
+<rect x="166.8" y="280" width="63.7" height="23" rx="11.5" fill="none" stroke="#24365C"/>
+<text x="174.8" y="295.5" font-size="11.5" font-weight="500" fill="#C9D6EC" text-anchor="start">XGBoost</text>
+<rect x="235.5" y="280" width="56.8" height="23" rx="11.5" fill="none" stroke="#24365C"/>
+<text x="243.5" y="295.5" font-size="11.5" font-weight="500" fill="#C9D6EC" text-anchor="start">SMOTE</text>
+<rect x="297.3" y="280" width="44.8" height="23" rx="11.5" fill="none" stroke="#24365C"/>
+<text x="305.3" y="295.5" font-size="11.5" font-weight="500" fill="#C9D6EC" text-anchor="start">Flask</text>
+<rect x="347.2" y="280" width="67.1" height="23" rx="11.5" fill="none" stroke="#24365C"/>
+<text x="355.2" y="295.5" font-size="11.5" font-weight="500" fill="#C9D6EC" text-anchor="start">API REST</text></g><rect x="0.5" y="0.5" width="439" height="326" rx="15.5" fill="none" stroke="#24365C"/></g>
+</svg>

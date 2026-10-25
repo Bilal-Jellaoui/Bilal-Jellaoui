@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 452 339" width="452" height="339" role="img" aria-labelledby="t d" font-family="Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
+<title id="t">Segmentation client (RFM)</title>
+<desc id="d">Prétraitement des transactions Online Retail, table RFM par client, régression logistique (exactitude 83,6 %) pour la valeur client et K-means en 4 segments pour guider les décisions marketing.</desc>
+<defs><linearGradient id="cg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#34D399"/><stop offset="1" stop-color="#818CF8"/></linearGradient><clipPath id="cc"><rect width="440" height="327" rx="16"/></clipPath></defs>
+<g transform="translate(6,6)"><g clip-path="url(#cc)"><rect width="440" height="327" fill="#0F1A33"/><rect width="440" height="4" fill="url(#cg)"/><rect x="24" y="24" width="209.8" height="24" rx="12" fill="#34D399" fill-opacity="0.15"/>
+<text x="35.0" y="40.0" font-size="10.5" font-weight="700" fill="#34D399" text-anchor="start" letter-spacing="1.1">DATA ANALYST · DATA MINING</text>
+<text x="416.0" y="40.0" font-size="12" font-weight="500" fill="#8DA0C0" text-anchor="end">Projet académique  ↗</text>
+<text x="24.0" y="82.0" font-size="19.5" font-weight="700" fill="#FFFFFF" text-anchor="start">Segmentation client (RFM)</text>
+<text x="24.0" y="116.0" font-size="13" font-weight="400" fill="#B8C6DF" text-anchor="start">Prétraitement des transactions Online Retail, table RFM par</text>
+<text x="24.0" y="136.0" font-size="13" font-weight="400" fill="#B8C6DF" text-anchor="start">client, régression logistique (exactitude 83,6 %) pour la valeur</text>
+<text x="24.0" y="156.0" font-size="13" font-weight="400" fill="#B8C6DF" text-anchor="start">client et K-means en 4 segments pour guider les décisions</text>
+<text x="24.0" y="176.0" font-size="13" font-weight="400" fill="#B8C6DF" text-anchor="start">marketing.</text>
+<rect x="24.0" y="198" width="124.0" height="64" rx="10" fill="#15223F" stroke="#24365C"/>
+<text x="36.0" y="226.0" font-size="22" font-weight="800" fill="#34D399" text-anchor="start">541 909</text>
+<text x="36.0" y="242.0" font-size="11" font-weight="400" fill="#8DA0C0" text-anchor="start">transactions</text>
+<rect x="158.0" y="198" width="124.0" height="64" rx="10" fill="#15223F" stroke="#24365C"/>
+<text x="170.0" y="226.0" font-size="22" font-weight="800" fill="#34D399" text-anchor="start">4 338</text>
+<text x="170.0" y="242.0" font-size="11" font-weight="400" fill="#8DA0C0" text-anchor="start">clients segmentés</text>
+<rect x="292.0" y="198" width="124.0" height="64" rx="10" fill="#15223F" stroke="#24365C"/>
+<text x="304.0" y="226.0" font-size="22" font-weight="800" fill="#34D399" text-anchor="start">0,911</text>
+<text x="304.0" y="242.0" font-size="11" font-weight="400" fill="#8DA0C0" text-anchor="start">AUC · régression</text>
+<text x="304.0" y="255.0" font-size="11" font-weight="400" fill="#8DA0C0" text-anchor="start">logistique</text>
+<rect x="24.0" y="280" width="54.9" height="23" rx="11.5" fill="none" stroke="#24365C"/>
+<text x="32.0" y="295.5" font-size="11.5" font-weight="500" fill="#C9D6EC" text-anchor="start">Python</text>
+<rect x="83.9" y="280" width="56.5" height="23" rx="11.5" fill="none" stroke="#24365C"/>
+<text x="91.9" y="295.5" font-size="11.5" font-weight="500" fill="#C9D6EC" text-anchor="start">pandas</text>
+<rect x="145.4" y="280" width="77.9" height="23" rx="11.5" fill="none" stroke="#24365C"/>
+<text x="153.4" y="295.5" font-size="11.5" font-weight="500" fill="#C9D6EC" text-anchor="start">scikit-learn</text>
+<rect x="228.3" y="280" width="64.8" height="23" rx="11.5" fill="none" stroke="#24365C"/>
+<text x="236.3" y="295.5" font-size="11.5" font-weight="500" fill="#C9D6EC" text-anchor="start">K-means</text></g><rect x="0.5" y="0.5" width="439" height="326" rx="15.5" fill="none" stroke="#24365C"/></g>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 596" width="400" height="596" role="img" aria-labelledby="t d" font-family="Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
+<title id="t">Architecture de SoukLine</title>
+<desc id="d">Site Spring Boot, access.log Tomcat, collecteur Java, cluster Kafka de 3 brokers, deux moteurs de calcul indépendants (Kafka Streams et Java concurrent), alerte 5xx.</desc>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1L9 5L0 9z" fill="#8DA0C0"/></marker></defs>
+<rect x="0.5" y="0.5" width="399" height="595" rx="18" fill="#0D1730" stroke="#24365C"/>
+<rect x="85.0" y="22" width="230" height="58" rx="12" fill="#0F1A33" stroke="#38BDF8" stroke-width="1.6"/>
+<text x="200.0" y="45.0" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">Site web</text>
+<text x="200.0" y="62.0" font-size="11.5" font-weight="400" fill="#8DA0C0" text-anchor="middle">SoukLine · Spring Boot</text>
+<path d="M200.0 82 L200.0 111" fill="none" stroke="#8DA0C0" stroke-width="1.7" stroke-dasharray="4 5" marker-end="url(#ar)"><animate attributeName="stroke-dashoffset" from="18" to="0" dur="1.3s" repeatCount="indefinite"/></path>
+<rect x="85.0" y="114" width="230" height="58" rx="12" fill="#0F1A33" stroke="#8DA0C0" stroke-width="1.6"/>
+<text x="200.0" y="137.0" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">access.log</text>
+<text x="200.0" y="154.0" font-size="11.5" font-weight="400" fill="#8DA0C0" text-anchor="middle">logs HTTP · Tomcat</text>
+<path d="M200.0 174 L200.0 203" fill="none" stroke="#8DA0C0" stroke-width="1.7" stroke-dasharray="4 5" marker-end="url(#ar)"><animate attributeName="stroke-dashoffset" from="18" to="0" dur="1.3s" repeatCount="indefinite"/></path>
+<rect x="85.0" y="206" width="230" height="58" rx="12" fill="#0F1A33" stroke="#818CF8" stroke-width="1.6"/>
+<text x="200.0" y="229.0" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">Collecteur</text>
+<text x="200.0" y="246.0" font-size="11.5" font-weight="400" fill="#8DA0C0" text-anchor="middle">lecture du log · Java</text>
+<path d="M200.0 266 L200.0 295" fill="none" stroke="#8DA0C0" stroke-width="1.7" stroke-dasharray="4 5" marker-end="url(#ar)"><animate attributeName="stroke-dashoffset" from="18" to="0" dur="1.3s" repeatCount="indefinite"/></path>
+<rect x="85.0" y="298" width="230" height="58" rx="12" fill="#0F1A33" stroke="#FBBF24" stroke-width="1.6"/>
+<text x="200.0" y="321.0" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">Kafka</text>
+<text x="200.0" y="338.0" font-size="11.5" font-weight="400" fill="#8DA0C0" text-anchor="middle">3 brokers · 8 partitions</text>
+<rect x="18" y="402" width="174" height="64" rx="12" fill="#0F1A33" stroke="#34D399" stroke-width="1.6"/>
+<text x="105.0" y="428.0" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">Moteur A</text>
+<text x="105.0" y="445.0" font-size="11.5" font-weight="400" fill="#8DA0C0" text-anchor="middle">Kafka Streams</text>
+<rect x="93.2" y="393" width="90.8" height="18" rx="9" fill="#34D399"/>
+<text x="138.6" y="405.5" font-size="9.5" font-weight="700" fill="#04110C" text-anchor="middle" letter-spacing="0.8">MON MODULE</text>
+<rect x="208" y="402" width="174" height="64" rx="12" fill="#0F1A33" stroke="#A78BFA" stroke-width="1.6"/>
+<text x="295.0" y="421.0" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">Moteur B</text>
+<text x="295.0" y="438.0" font-size="11.5" font-weight="400" fill="#8DA0C0" text-anchor="middle">ExecutorService</text>
+<text x="295.0" y="452.0" font-size="11.5" font-weight="400" fill="#8DA0C0" text-anchor="middle">+ CyclicBarrier</text>
+<path d="M170.0 358 C170.0 378.5 105.0 378.5 105.0 399" fill="none" stroke="#8DA0C0" stroke-width="1.7" stroke-dasharray="4 5" marker-end="url(#ar)"><animate attributeName="stroke-dashoffset" from="18" to="0" dur="1.3s" repeatCount="indefinite"/></path>
+<path d="M230.0 358 C230.0 378.5 295.0 378.5 295.0 399" fill="none" stroke="#8DA0C0" stroke-width="1.7" stroke-dasharray="4 5" marker-end="url(#ar)"><animate attributeName="stroke-dashoffset" from="18" to="0" dur="1.3s" repeatCount="indefinite"/></path>
+<rect x="85.0" y="516" width="230" height="58" rx="12" fill="#0F1A33" stroke="#FB7185" stroke-width="1.6"/>
+<text x="200.0" y="539.0" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">Alerte 5xx</text>
+<text x="200.0" y="556.0" font-size="11.5" font-weight="400" fill="#8DA0C0" text-anchor="middle">tableau de bord</text>
+<path d="M105.0 468 C105.0 490.5 170.0 490.5 170.0 513" fill="none" stroke="#8DA0C0" stroke-width="1.7" stroke-dasharray="4 5" marker-end="url(#ar)"><animate attributeName="stroke-dashoffset" from="18" to="0" dur="1.3s" repeatCount="indefinite"/></path>
+<path d="M295.0 468 C295.0 490.5 230.0 490.5 230.0 513" fill="none" stroke="#8DA0C0" stroke-width="1.7" stroke-dasharray="4 5" marker-end="url(#ar)"><animate attributeName="stroke-dashoffset" from="18" to="0" dur="1.3s" repeatCount="indefinite"/></path>
+</svg>
